@@ -15,7 +15,7 @@ TextView, EditText, Button, Switch, CheckBox, ToggleButton.
 inputType: text, textPersonName, phone, number, textPassword, textEmailAddress
 и другие значения.    
 - [X] ***Задача №3.***	Добавить в проект элемент CalendarView. 
-- [] ***Задача №4.*** *Разобраться, что такое параметр ems.. 
+- [ ] ***Задача №4.*** *Разобраться, что такое параметр ems.. 
   
      
 ### Отчет о выполнении:
