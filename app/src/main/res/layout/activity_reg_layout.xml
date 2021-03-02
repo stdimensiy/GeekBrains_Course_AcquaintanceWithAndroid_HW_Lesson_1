@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регистрация нового пользователя"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewResEnterUourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="введи ваше имя"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextRegPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="ваше имя"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/textViewResEnterUourPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="введи ваш праоль"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="123456" />
+
+    <TextView
+        android:id="@+id/textViewResRepeatUourPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="повторите ваш праоль"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextRepeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="123456" />
+
+    <TextView
+        android:id="@+id/textViewResEnterUourEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="вВведите ваш email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="test@yandex.ru" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Зарегистрировать" />
+
+    <Button
+        android:id="@+id/btnGoToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="На главную" />
+</LinearLayout>
