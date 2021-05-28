@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewGreeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Пустой текст"
+        android:textSize="42sp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Ты хорошо знаешь таблицу умножения?
+        давай проверим?"
+        android:textSize="18sp" />
+
+    <ToggleButton
+        android:id="@+id/startStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="НАЧАТЬ проверку !"
+        android:textOn="ЗАКОНЧИТЬ проверку!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Сколько будет:"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="2 х 3 = ?"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/userAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="ваш ответ..."
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/btnAcceptResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Принять ответ!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="настройка сложности" />
+
+    <Switch
+        android:id="@+id/multiplyingBy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Умножение на 2"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/multiplyingBy3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Умножение на 3"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/multiplyingBy4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Умножение на 4"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Учитывать время ответа." />
+
+    <Button
+        android:id="@+id/btnGoToMainFromPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="На главную" />
+
+</LinearLayout>
